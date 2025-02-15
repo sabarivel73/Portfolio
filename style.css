@@ -489,7 +489,7 @@ header.sticky
     .navlist
     {
         position: absolute;
-        top: -600px;
+        top: -700px;
         left: 0;
         right: 0;
         flex-direction: column;
@@ -599,5 +599,21 @@ header.sticky
     {
         padding: 65px 3%;
         transition: .3s;
+    }
+    .rows
+    {
+        background: var(--bg-color);
+        box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+        border-radius: 12px;
+        padding: 45px 45px 45px 45px;
+        transition: ease .45s;
+        width: 30%;
+        margin-left: 35%;
+        cursor: pointer;
+    }
+    .rows:hover
+    {
+        will-change: transform;
+        transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05,1.05,1.05);   
     }
 }
