@@ -32,16 +32,9 @@ icon.onclick = function()
     document.body.classList.toggle("darktheme");
 }
 var text = new Typed(".text",{
-    strings : ["Software Developer"],
+    strings : ["MCA | Graduating in 2026"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
-}) 
-var text1 = new Typed(".text1",{
-    strings : ["Software Developer"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true
-}) 
+})
