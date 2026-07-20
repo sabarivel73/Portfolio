@@ -32,7 +32,7 @@ icon.onclick = function()
     document.body.classList.toggle("darktheme");
 }
 var text = new Typed(".text",{
-    strings : ["MCA | Graduating in 2026"],
+    strings : ["SDE @Avantor"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
